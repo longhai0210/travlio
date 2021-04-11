@@ -1,0 +1,40 @@
+.contact-container{
+    background-color: #FF5722;
+    background-image: url(http://demoapus-wp1.com/travlio/wp-content/uploads/2020/08/bg-new.png);
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 166px;
+
+    .title-box{
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+    .contact-box{
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        font-size: 16px;
+
+        input,button{
+            padding: 12px 20px;
+            outline: none;
+            border: none;
+            height: 60px;
+        }
+        input{
+            border-radius: 5px 0 0 5px;
+        }
+        button{
+            background-color: #263547;
+            color: #fff;
+            border-radius: 0 5px 5px 0;
+            font-weight: 500;
+        }
+    }
+}

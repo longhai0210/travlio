@@ -1,0 +1,36 @@
+[
+    {
+        "name": "John Doe",
+        "rating":4,
+        "title": "Designer",
+        "img": "http://g5p6r6b9.stackpathcdn.com/travlio/wp-content/uploads/2020/08/user-2.jpg",
+        "comment":"Faucibus tristique felis potenti ultrices ornare rhoncus semper hac facilisi Rutrum tellus lorem sem velit nisi non."
+    },
+    {
+        "name": "Lori Ramos",
+        "rating":5,
+        "title": "Frontend Developer",
+        "img": "http://g5p6r6b9.stackpathcdn.com/travlio/wp-content/uploads/2020/08/user-4.jpg",
+        "comment":"Faucibus tristique felis potenti ultrices ornare rhoncus semper hac facilisi Rutrum tellus lorem sem velit nisi non."
+    },
+    {
+        "name": "Dominikus Yuri",
+        "rating":3,
+        "title": "UI – UX Designer",
+        "img": "http://g5p6r6b9.stackpathcdn.com/travlio/wp-content/uploads/2020/08/user-3.jpg",
+        "comment":"Faucibus tristique felis potenti ultrices ornare rhoncus semper hac facilisi Rutrum tellus lorem sem velit nisi non."
+    },
+    {
+        "name": "Peter Hawkins",
+        "rating":4,
+        "title": "Content Writer",
+        "img": "http://g5p6r6b9.stackpathcdn.com/travlio/wp-content/uploads/2020/08/user-6.jpg",
+        "comment":"Faucibus tristique felis potenti ultrices ornare rhoncus semper hac facilisi Rutrum tellus lorem sem velit nisi non."
+    }, {
+        "name": "Deanna Rose",
+        "rating":4,
+        "title": "Marketing",
+        "img": "http://g5p6r6b9.stackpathcdn.com/travlio/wp-content/uploads/2020/08/user-7.jpg",
+        "comment":"Faucibus tristique felis potenti ultrices ornare rhoncus semper hac facilisi Rutrum tellus lorem sem velit nisi non."
+    }
+]

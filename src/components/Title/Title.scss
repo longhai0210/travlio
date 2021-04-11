@@ -1,0 +1,17 @@
+.title-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #2c3f58;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    p{
+        font-size: 22px;
+        font-family: "Lora",Sans-serif;;
+        font-style: italic;
+    }
+
+    h2{
+        font-size: 44px;
+    }
+}

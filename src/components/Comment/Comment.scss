@@ -1,0 +1,57 @@
+.comment-slide{
+    background-color: #fff;
+    
+    padding: 20px 0 50px 0;
+
+    .item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column wrap;
+        padding: 15px;
+        .avatar{
+            width: 80px;
+            height: 80px;
+            border-radius: 50% ;
+            overflow: hidden;
+            margin-bottom: 5px;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .name{
+            color: #2c3f58;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .title{
+            margin-top: 5px;
+            color: #637082;
+            font-size: 14px;
+        }
+        .comment{
+            width: 80%;
+            margin-top: 5px;
+            color: #637082;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        ul{
+            height: 10px;
+            li{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .item:hover{
+        .avatar{
+            box-shadow: 0 0 0 10px pink;
+            transition: 0.3s;
+        }
+    }
+}

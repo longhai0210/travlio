@@ -1,0 +1,25 @@
+.search-box{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    color: #637082;
+    .search-item{
+        padding: 20px 25px ;
+        background-color: #fff;
+        border-right:1px solid #e9edf5;
+
+    }
+    .search-item:first-child{
+        border-radius:5px 0 0 5px;
+    }
+    button{
+        border: none;
+        outline: none;
+        background-color: #FF5722;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 0 5px 5px 0;
+        padding: 0 25px;
+    }
+}

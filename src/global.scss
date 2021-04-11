@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{ 
+    background-color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 0px){
+    .banner{
+        .space-inner{
+            display: none !important;
+        }
+
+        .main-content{
+            padding: 50px 20px !important;
+            .search-box{
+                flex-flow: column wrap !important;
+                .search-item{
+                    width: 100% !important;
+                }
+                .search-item:first-child{
+                    border-radius:5px 5px 0 0 !important;
+                }
+            }
+            
+        }
+    }
+    
+    .city-items{
+        padding: 0 5px !important;
+        .item{
+            width :90% !important;
+        }
+    }
+    .event{
+        flex-flow: column wrap !important;
+    }
+
+    .under-banner{
+        flex-direction: column !important;
+        height: auto !important;
+
+        button{
+            border-radius:0 0 5px 5px !important;
+        }
+    }
+
+   
+}
+
+@media only screen and (max-width: 990px) and (min-width: 769px)
+{
+    .banner{
+        .space-inner{
+            display: none !important;
+        }
+
+        .main-content{
+            padding: 50px 20px !important;
+            .search-box{
+                flex-flow: column wrap !important;
+                .search-item{
+                    width: 100% !important;
+                }
+                .search-item:first-child{
+                    border-radius:5px 5px 0 0 !important;
+                }
+                button{
+                    border-radius:0 0 5px 5px !important;
+                }
+            }
+            
+        }
+    }
+
+    .city-items{
+        padding: 0 10px !important;
+        .item{
+            width:45% !important;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .header-container{
+        padding: 0 20px;
+        .menu-box {
+            display:none;
+        }
+        .menuToggle{
+            display: block;
+        }
+    }
+
+    .ant-drawer-body{
+        .right{
+            display: none;
+        }
+        .left{
+
+            [aria-label=caret-down]{
+                display: none;
+            }
+            li{
+                display: block;
+            }
+        }
+    }  
+}
+
+
+
+

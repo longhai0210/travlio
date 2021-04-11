@@ -1,0 +1,35 @@
+.header-container{
+    height:100px;
+    width:100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 0 75px;
+    align-items: center;
+    font-weight: 400;
+    .logo-box{
+        width: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px;
+        img{
+            width: 100%;
+            display: block;
+        }
+    }
+    .menu-box {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .menuToggle{
+        padding:10px;
+        background-color: #ff5722;
+        display: none;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+}

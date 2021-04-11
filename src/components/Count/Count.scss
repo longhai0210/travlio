@@ -1,0 +1,25 @@
+.event{
+    background-color: #FF5722;
+    color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 240px;
+    .event-item{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        .icon{
+            font-size: 50px;
+            margin-right: 10px;
+        }
+        .count-number{
+            font-size: 40px;
+            font-weight: 650;
+        }
+        .title{
+            font-size: 15px;
+        }
+    }
+}
